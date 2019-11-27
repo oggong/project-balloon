@@ -1,0 +1,93 @@
+.form-add{
+    width: 360px;
+    height: auto;
+    background: #F9EFED;
+}
+
+.form-add-project{
+    display: flex;
+    width: auto;
+    padding-top: 10px;
+    margin-bottom: -10px;
+    margin-left: 55px;
+}
+
+.img-add-project{
+    width: 50px;
+    height: 20px;
+}
+
+.img-add-project img{
+    width: 100%;
+    height: auto;
+}
+
+.content-add-project{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    font-weight: 550;
+}
+
+.input-project-name::placeholder{
+    background-image: url('../resources/icons/label.png');
+    background-size: 13px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-position-x: 3px;
+    padding-left: 20px;
+}
+
+.input-type::placeholder{
+    background-image: url('../resources/icons/project-type.png');
+    background-size: 13px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-position-x: 3px;
+    padding-left: 20px;
+}
+
+.input-invite::placeholder{
+    background-image: url('../resources/icons/project-invite.png');
+    background-size: 13px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-position-x: 3px;
+    padding-left: 20px;
+}
+
+.form-content-project{
+    display: flex;
+    margin-left: 20px;
+}
+
+.form-label{
+    width: 100px;
+    height: 100px;
+    text-align: right;
+    margin-top: 20px;
+    margin-left: -3px;
+}
+
+.form-label label{
+    margin-bottom: 10px;
+}
+
+.form-input{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 100px;
+    height: auto;
+}
+
+.form-button{
+    display: flex;
+    padding-bottom: 30px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.button-play{
+    margin-right: 10px;
+}
